@@ -1,0 +1,12 @@
+<div class="form-account">
+	<div class="form-group has-error">
+	<label>Prefered Location</label>
+		{{hide}}
+	<input type="text" name="" class="form-control" ng-model="ngModel" ng-change="update()" ng-blur="hide=true" ng-focus="hide=false"/>
+		<ul id="notebook_ul" ng-class="{'is-hidden':hide}">
+	    <li ng-repeat="item in array">
+	       {{item[key]}}<br/>
+	    </li>
+	  </ul>
+	</div>	
+</div>

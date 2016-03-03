@@ -1,0 +1,15 @@
+{
+  "name": "tif-app",
+  "version": "0.0.0",
+  "authors": [
+    "srajbhandari <srajbhandari@gerer.io>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.9"
+  },
+  "resolutions": {
+    "angular": "~1.4.9"
+  }
+}
